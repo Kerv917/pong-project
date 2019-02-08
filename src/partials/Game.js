@@ -34,12 +34,14 @@ export default class Game {
   this.player2 = new Paddle(
     // Game Board height
     this.height,
+  
     //paddle width and height
     this.paddleWidth,
     this.paddleHeight,
     //Gap between paddle and board side
-    this.boardGap,
+    (this.width - this.boardGap - this.paddleWidth),
     ((this.height - this.paddleHeight) / 2),
+    
     KEYS.up,
     KEYS.down
 
