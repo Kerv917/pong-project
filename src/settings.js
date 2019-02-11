@@ -5,5 +5,5 @@ export const KEYS = {
     z: 'z', //Player 1 down key
     up: 'ArrowUp', //player 2 up key
     down: 'ArrowDown', //player 2 down key
-    spaceBar: '', // pause
+    spaceBar: ' ', // pause
 }
